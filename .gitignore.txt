@@ -1,0 +1,6 @@
+# Let's ignore the styles folder #
+##################################
+
+styles/
+styles/*.map
+styles/*.css

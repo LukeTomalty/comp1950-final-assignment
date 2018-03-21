@@ -1,0 +1,125 @@
+header {
+  min-height: 60px;
+  background-color: #a1da06; }
+  header div {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  header h1 {
+    font-size: 20px;
+    color: #110070; }
+    header h1 a {
+      text-decoration: none; }
+    header h1 a:hover {
+      color: #460101;
+      text-decoration: underline; }
+    header h1 a {
+      font-size: 36px; }
+
+header nav li {
+  list-style-type: none;
+  border-radius: 30px, 0px, 0px, 0px;
+  border: 1px solid; }
+  header nav li a {
+    text-decoration: none; }
+  header nav li a:hover {
+    color: #460101;
+    text-decoration: underline; }
+  header nav li a {
+    font-size: 18px;
+    color: #2e2e2e; }
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+header nav a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: bold;
+  display: block;
+  padding: 0px 5px;
+  line-height: 60px;
+  transition: background-color 0.3s ease;
+  position: relative; }
+  header nav a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    transition: background-color 0.3s ease; }
+  header nav a:hover, header nav a:focus, header nav a:active {
+    background-color: rgba(0, 0, 255, 0.1);
+    outline: none; }
+    header nav a:hover:after, header nav a:focus:after, header nav a:active:after {
+      background-color: yellow; }
+@media (max-width: 600px) {
+  header nav {
+    width: 100%;
+    display: none;
+    width: 100%;
+    border-bottom: 1px solid #2e2e2e; }
+    header nav ul {
+      display: block; }
+    header nav a {
+      border-top: 1px solid #2e2e2e;
+      line-height: 59px; }
+    .show header nav {
+      display: block; } }
+
+.hamburger {
+  display: none; }
+  @media (max-width: 600px) {
+    .hamburger {
+      display: block;
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      width: 37px;
+      height: 37px;
+      margin-right: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer; }
+      .hamburger .hamburger-icon {
+        color: #2e2e2e;
+        line-height: 1;
+        font-size: 3.4em; }
+      .hamburger .hamburger:focus,
+      .hamburger .hamburger-icon:focus {
+        outline: none; }
+      .hamburger .hamburger:focus .hamburger-icon {
+        outline: 5px solid rgba(0, 0, 255, 0.5); }
+      .hamburger .hamburger-text {
+        margin: -1px;
+        padding: 0;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        clip: rect(0, 0, 0, 0);
+        position: absolute; } }
+
+footer {
+  background-color: #000000;
+  color: #bbbbbb; }
+  footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px; }
+    @media only screen and (max-width: 600px) {
+      footer .row {
+        flex-direction: column;
+        margin: 10px; } }
+
+/*# sourceMappingURL=generalStyle.css.map */

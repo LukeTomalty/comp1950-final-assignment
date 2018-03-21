@@ -1,0 +1,19 @@
+header {
+    $header-height: 60px !global;
+    min-height: $header-height;
+    
+    background-color: $bg-colorhead;
+    div{
+        margin: 10px;
+        @include flexdisplayrow;
+    }
+    h1{
+        @include link-style;
+        font-size: 20px;
+        color: $header-text;
+
+        a {
+		    font-size: 36px;
+	    }
+    }
+}

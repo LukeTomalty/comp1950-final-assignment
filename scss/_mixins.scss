@@ -1,0 +1,89 @@
+@mixin link-style {
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: $link-hover;
+        text-decoration: underline;
+
+    }
+}
+
+@mixin flexdisplayrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin flexdisplaycolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+@mixin center($margin-center: true, $zero-margin: true){
+    @if($margin-center){
+        @if($zero-margin){
+            margin: 0 auto;
+        }
+        @else {
+            margin: {
+                left: auto;
+                right: auto;
+            }
+        }
+    }
+    @else {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @if($zero-margin){
+            margin: 0;
+        }
+    }
+}
+
+@mixin plain-link($c: white){
+    text-decoration: none;
+    color: $c;
+}
+
+@mixin flatten($list: false) {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    @if($list){
+        list-style: none;
+    }
+}
+
+//easy media query mixin
+@mixin mq($w){
+    @media (max-width: $w){
+        @content;
+    }
+}
+
+// Visually Hide
+@mixin hide {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+// Center elements in a flex
+// container
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

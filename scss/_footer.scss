@@ -1,0 +1,14 @@
+footer{
+    background-color: $bg-colorfoot;
+    color: $text-white;
+
+    .row {
+        @include flexdisplayrow;
+        margin: 20px;
+
+        @media only screen and (max-width: $media-swap) {
+            flex-direction: column;
+            margin: 10px;
+        }
+    }
+}
