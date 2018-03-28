@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,OAAG;ECWH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;EDXX,MAAM,EAAE,iBAAiB;EAEzB,UAAE;IACE,OAAO,EAAE,GAAG;IACZ,SAAS,EAAE,IAAI;IACf,eAAe,EAAE,IAAI;IACrB,MAAM,EAAE,SAAS;IACjB,KAAK,EAAE,GAAG;ECqDlB,yBAAsB;IDjDd,UAAG;MACC,KAAK,EAAE,IAAI",
+"sources": ["../scss/_flexlist.scss","../scss/_mixins.scss"],
+"names": [],
+"file": "about.css"
+}

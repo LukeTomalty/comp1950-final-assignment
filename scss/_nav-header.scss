@@ -2,15 +2,10 @@ header nav {
 
     li {
         @include link-style;
-        
         list-style-type: none;
-        a {
-            font-size: 18px;
-            color: $text-black;
-        }
-        border-radius: 30px, 0px, 0px, 0px;
         border: 1px solid;
     }
+
     ul{
         @include flexdisplayrow;
     }
@@ -21,6 +16,10 @@ header nav {
         font-weight: bold;
         display: block;
         padding: 0px 5px;
+
+        font-size: 18px;
+        color: $text-black;
+
         line-height: $header-height;
         transition: $transition;
         position: relative;
@@ -31,14 +30,15 @@ header nav {
             left: 0;
             width: 100%;
             height: 4px;
+            text-decoration: none;
             background-color: transparent;
             transition: $transition;
         }
         #{$hover} {
-            background-color: rgba(blue, 0.1);
+            background-color: rgba($bg-navselect, 0.1);
             outline: none;
             &:after {
-                background-color: yellow;
+                background-color: $bg-navunderline;
             }
         }
     }
@@ -48,16 +48,22 @@ header nav {
         $border: 1px solid $text-black;
         width: 100%;
         display: none;
-        width: 100%;
-        border-bottom: $border;
 
         ul {
             display: block;
         }
 
+        li {
+            padding: 0px;
+            margin: 0px 0px 0px -40px;
+        }
+
         a {
+            padding: 0px 10px;
+            font-size: 24px;
+            color: $text-black;
             border-top: $border;
-            line-height: $header-height - 1px;
+            line-height: $header-height - 2px;
         }
 
         .show & {

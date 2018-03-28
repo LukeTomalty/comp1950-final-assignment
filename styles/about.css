@@ -1,0 +1,17 @@
+main ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px -40px; }
+  main ul li {
+    padding: 4px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border: 1px solid;
+    width: 48%; }
+  @media (max-width: 600px) {
+    main ul li {
+      width: 100%; } }
+
+/*# sourceMappingURL=about.css.map */

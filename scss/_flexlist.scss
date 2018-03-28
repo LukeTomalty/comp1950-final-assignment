@@ -1,0 +1,21 @@
+main {
+    ul {
+        @include flexdisplayrow;
+
+        margin: 0px 0px 0px -40px;
+
+        li{
+            padding: 4px;
+            flex-wrap: wrap;
+            list-style-type: none;
+            border: 1px solid;
+            width: 48%;
+        }
+
+        @include mq($media-swap){
+            li {
+                width: 100%;
+            }
+        }
+    }
+}
