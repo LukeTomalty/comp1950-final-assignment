@@ -1,0 +1,48 @@
+main #selector p {
+  font-size: 18px;
+  text-align: center; }
+main #selector select {
+  display: block;
+  margin: 0 auto; }
+main .content {
+  margin: 20px 0px -15px 0px; }
+
+main .split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center; }
+  main .split div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 49%;
+    border-top: solid 2px; }
+  main .split div:first-child {
+    border-right: solid 2px; }
+    @media (max-width: 600px) {
+      main .split div:first-child {
+        border: none; } }
+  main .split ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 0px; }
+    main .split ul li {
+      padding: 14px 0px;
+      flex-wrap: wrap;
+      font-size: 18px; }
+  @media (max-width: 600px) {
+    main .split {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: nowrap; }
+      main .split div {
+        width: 100%; } }
+
+/*# sourceMappingURL=schedule.css.map */

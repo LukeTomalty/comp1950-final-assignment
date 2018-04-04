@@ -1,0 +1,41 @@
+main {
+    .split {
+        @include flexdisplayrow;
+        justify-content: center;
+
+        div {
+            @include flexdisplaycolumn;
+            align-items: center;
+            width: 49%;
+            border-top: solid 2px;
+        }
+
+        div:first-child {
+            border-right: solid 2px;
+            @include mq($media-swap){
+                border: none;
+            }
+        }
+
+
+        ul {
+            @include flexdisplaycolumn;
+            padding: 0px;
+
+            li{
+                padding: 14px 0px;
+                flex-wrap: wrap;
+                font-size: 18px;
+            }
+        }
+
+        
+        @include mq($media-swap){
+            @include flexdisplaycolumn;
+            
+            div {
+                width: 100%;
+            }
+        }
+    }
+}

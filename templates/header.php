@@ -5,7 +5,7 @@
 
 <header>
 	<div class="header-content-wrap container">
-		---either logo or name here--
+		<img src="images/logo.svg">
 		<button class="hamburger">
 			<span class="hamburger-content">
 				<span class="hamburger-icon" tabindex="-1">&#9776;</span>
@@ -14,12 +14,10 @@
 		</button>
 		<nav>
 			<ul>
-				<li><a href="#0">About</a></li>
-				<li><a href="#0">Requirements</a></li>
-				<li><a href="#0">Outline</a></li>
-				<li><a href="#0">Schedule</a></li>
-				<li><a href="#0">Feedback</a></li>
-				<li><a href="#0">Content</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="requirements.php">Requirements</a></li>
+				<li><a href="schedule.php">Schedule</a></li>
+				<li><a href="feedback.php">Feedback</a></li>
 			</ul>
 		</nav>	
 	</div>

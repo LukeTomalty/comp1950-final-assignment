@@ -1,5 +1,4 @@
 .wrapper {
-    max-width: $site-width;
-    background-color: $bg-colorwrap;
+    max-width: 1000px;
     @include center;
 }

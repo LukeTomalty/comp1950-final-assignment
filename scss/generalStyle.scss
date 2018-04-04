@@ -4,8 +4,11 @@
 
 //general stylized
 @import 'header';
-@import 'nav-header';
-@import 'hamburger';
 @import 'footer';
+@import 'background';
+@import 'wrapper';
 
 //specific styles for all pages
+@import 'nav-header';
+@import 'hamburger';
+@import 'styleBody';

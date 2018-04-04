@@ -1,0 +1,24 @@
+main ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px -40px; }
+  main ul li {
+    padding: 10px;
+    flex-wrap: wrap;
+    flex: 1 1 40%;
+    list-style-type: none;
+    border: 1px solid; }
+  @media (max-width: 600px) {
+    main ul li {
+      width: 100%;
+      flex: 1 1 100%; } }
+
+main h2 {
+  background-color: #fffccc;
+  text-align: center;
+  padding: 4px 0px;
+  margin: 6px 0px; }
+
+/*# sourceMappingURL=about.css.map */

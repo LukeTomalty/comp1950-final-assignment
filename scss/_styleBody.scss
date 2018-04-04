@@ -1,0 +1,12 @@
+main {
+    h1 {
+        @include headerStyle;
+    }
+
+    p {
+        max-width: 800px;
+        @include center;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+}

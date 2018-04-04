@@ -1,8 +1,13 @@
 header {
     $header-height: 60px !global;
     min-height: $header-height;
+
+    $site-width: 1000px !global;
+    max-width: 1000px;
+    @include center;
     
     background-color: $bg-colorhead;
+
     div{
         margin: 10px;
         @include flexdisplayrow;

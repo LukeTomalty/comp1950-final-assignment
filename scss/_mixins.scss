@@ -4,7 +4,7 @@
     }
     a:hover{
         color: $link-hover;
-        text-decoration: underline;
+        text-decoration: none;
 
     }
 }
@@ -86,4 +86,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+@mixin headerStyle {
+    background-color: $bg-headhighlight;
+    text-align: center;
+    padding: 4px 0px;
+    margin: 6px 0px;
 }

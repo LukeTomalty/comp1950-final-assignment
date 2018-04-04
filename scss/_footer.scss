@@ -1,14 +1,15 @@
 footer{
     background-color: $bg-colorfoot;
     color: $text-white;
+    margin-top: -20px;
 
     .row {
         @include flexdisplayrow;
         margin: 20px;
 
-        @media only screen and (max-width: $media-swap) {
+        @include mq($media-swap){
             flex-direction: column;
-            margin: 10px;
+            margin: 20px;
         }
     }
 }
