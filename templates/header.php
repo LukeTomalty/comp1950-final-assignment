@@ -19,7 +19,7 @@
 				<li><a href="#0">Outline</a></li>
 				<li><a href="#0">Schedule</a></li>
 				<li><a href="#0">Feedback</a></li>
-				<li><a href="#0">Content</a></li>
+				<li><a href="#0">Contact</a></li>
 			</ul>
 		</nav>	
 	</div>
