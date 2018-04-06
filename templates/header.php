@@ -18,6 +18,7 @@
 				<li><a href="requirements.php">Requirements</a></li>
 				<li><a href="schedule.php">Schedule</a></li>
 				<li><a href="feedback.php">Feedback</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>	
 	</div>
