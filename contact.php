@@ -11,7 +11,7 @@
 
 
  <h2>Please fill out the form and will get back to you within 48 hours.</h2>
-        <form action="php/formmail.php" method="post">
+        <form method="post">
             <input type="hidden" name="recipient" id="recipient" value="andrei">
     <input type="hidden" name="subject" id="subject" value="Message from site">
     <input type="hidden" name="redirect" id="redirect" value="thanks.php">

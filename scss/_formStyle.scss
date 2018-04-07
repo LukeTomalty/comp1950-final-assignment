@@ -1,0 +1,61 @@
+$text-width: 600px !global;
+$label-width: 150px !global;
+
+form {
+    @include center;
+    max-width: $text-width;
+}
+
+.form_settings { 
+
+
+    span {
+        float: left;
+        width: $label-width; 
+        text-align: left;
+    }
+      
+    input, textarea { 
+        width: 80%; 
+        border: 1px solid #E5E5DB; 
+        background: $bg-colorwrap; 
+        color: $text-black;
+        margin: 4px;
+
+        @include mq($media-swap){
+            width: 100%; 
+        }
+    }
+      
+    .submit {
+        border: 1px solid; 
+        width: ($label-width - 1px); 
+        height: 33px;
+        padding: 2px 0 3px 0;
+        cursor: pointer; 
+        background: $header-text; 
+        color: $bg-colorwrap
+    }
+    
+    textarea, select {
+        width: ($text-width - 1px);
+    }
+    
+    select {
+        width: ($text-width);
+    }
+
+    .radiobox {
+        @include flexdisplayrow;
+        flex-wrap: nowrap;
+    }
+
+    .group {
+        @include flexdisplayrow;
+        flex-wrap: nowrap;
+
+        @include mq($media-swap){
+            @include flexdisplaycolumn;
+        }
+    }
+}
