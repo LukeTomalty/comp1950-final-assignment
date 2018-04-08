@@ -94,3 +94,46 @@
     padding: 4px 0px;
     margin: 6px 0px;
 }
+
+//creates a nice, white background to display header-like text on an image
+@mixin imageText{
+    padding: 0px 8px;
+    color: $text-white;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba($text-white, 0.88) ;
+
+    border-radius: 30px;
+    box-shadow: 0 0 10px $text-white;
+    text-shadow: 1px 1px 0 $text-black,
+                 -1px 1px 0 $text-black,
+                 1px -1px 0 $text-black,
+                 -1px -1px 0 $text-black, 
+
+                 2px 2px 0px $text-black,
+                 -2px 2px 0px $text-black,
+                 2px -2px 0px $text-black,
+                 -2px -2px 0px $text-black,
+
+                 2px 1px 0px $text-black,
+                 -2px 1px 0px $text-black,
+                 2px -1px 0px $text-black,
+                 -2px -1px 0px $text-black,
+
+                 1px 2px 0px $text-black,
+                 -1px 2px 0px $text-black,
+                 1px -2px 0px $text-black,
+                 -1px -2px 0px $text-black,
+
+                 2px 0px 0px $text-black,
+                 -2px 0px 0px $text-black,
+                 0px -2px 0px $text-black,
+                 0px 2px 0px $text-black,
+                 1px 0px 0px $text-black,
+                 -1px 0px 0px $text-black,
+                 0px -1px 0px $text-black,
+                 0px 1px 0px $text-black;
+}

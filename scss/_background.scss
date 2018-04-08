@@ -1,9 +1,23 @@
 body{
+    //background-image: url(https://vignette.wikia.nocookie.net/mugen/images/e/e0/MarioRabbidsYoshi.png/revision/latest?cb=20170829205638);
+    background-image: url(../images/design-studio-bg.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     background-color: $bg-outside;
 
     main {
         margin-top: -10px;
         padding: 20px;
         background-color: $bg-colorwrap;
+        
+    }
+
+    @include mq(($site-width + 150px)){
+        background-image: none;
     }
 }

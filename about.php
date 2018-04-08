@@ -6,7 +6,7 @@
 
 <h1>About this Course</h1>
 
-<p>This hands-on course follows on from COMP 1850 Applied Web Development Level 1. Students who 
+<p>    This hands-on course follows on from COMP 1850 Applied Web Development Level 1. Students who 
 already under stand HTML and CSS will explore web development in more depth with new topics and 
 techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 
 and CSS3 for developing web sites and applications. There is a focus on responsive design and mobile 

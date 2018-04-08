@@ -3,7 +3,7 @@ header {
     min-height: $header-height;
 
     $site-width: 1000px !global;
-    max-width: 1000px;
+    max-width: $site-width;
     @include center;
     
     background-color: $bg-colorhead;
@@ -12,7 +12,9 @@ header {
         margin: 10px;
         @include flexdisplayrow;
     }
+
     h1{
+        
         @include link-style;
         font-size: 20px;
         color: $header-text;
@@ -20,5 +22,20 @@ header {
         a {
 		    font-size: 36px;
 	    }
+    }
+
+    img{
+        max-width: 120px;
+        height: auto;
+
+        
+    }
+    @include mq($media-swap){
+        .header-content-wrap a{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
     }
 }

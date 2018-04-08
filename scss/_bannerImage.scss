@@ -1,0 +1,27 @@
+.banner {
+    position: relative;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        opacity: 0.8;
+    }
+
+    .imageText {
+        max-width: 100%;
+        white-space: nowrap;
+        position: absolute;
+        font-size: 90px;
+        @include imageText;
+        top: 20%;
+        
+        @include mq($media-swap){
+            font-size: 60px;
+            
+        }
+        @include mq($phone-swap){
+            font-size: 35px;
+            top: 75%;
+        }
+    }
+}

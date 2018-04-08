@@ -209,7 +209,7 @@
 </div>
 
 <div id="day11" class="content">
-    <h1>Day 3</h1>
+    <h1>Day 11</h1>
         <div class="split">
             <div>
                 <h2>Learning Outcomes</h2>
@@ -224,7 +224,7 @@
 </div>
 
 <div id="day12" class="content">
-    <h1>Day 3</h1>
+    <h1>Day 12</h1>
         <div class="split">
             <div>
                 <h2>Learning Outcomes</h2>

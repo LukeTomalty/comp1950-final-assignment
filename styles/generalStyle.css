@@ -19,6 +19,14 @@ header {
       text-decoration: none; }
     header h1 a {
       font-size: 36px; }
+  header img {
+    max-width: 120px;
+    height: auto; }
+  @media (max-width: 600px) {
+    header .header-content-wrap a {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; } }
 
 footer {
   background-color: #000000;
@@ -30,17 +38,38 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px; }
+    footer .row .column {
+      flex: 1 1 0; }
+    footer .row .center {
+      text-align: center; }
+    footer .row .right {
+      text-align: right; }
+      footer .row .right a {
+        color: #bbbbbb; }
+        footer .row .right a:hover, footer .row .right a:focus, footer .row .right a:active {
+          color: #eeeeee; }
     @media (max-width: 600px) {
       footer .row {
         flex-direction: column;
-        margin: 20px; } }
+        margin: 20px; }
+        footer .row .center, footer .row .right {
+          text-align: left; } }
 
 body {
+  background-image: url(../images/design-studio-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #9fc5ff; }
   body main {
     margin-top: -10px;
     padding: 20px;
     background-color: #ffffff; }
+  @media (max-width: 1150px) {
+    body {
+      background-image: none; } }
 
 .wrapper {
   max-width: 1000px;

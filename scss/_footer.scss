@@ -1,15 +1,38 @@
 footer{
     background-color: $bg-colorfoot;
-    color: $text-white;
+    color: $text-foot;
     margin-top: -20px;
 
     .row {
         @include flexdisplayrow;
         margin: 20px;
 
+        .column {
+            flex: 1 1 0;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .right{
+            text-align: right;
+
+            a {
+                color:$text-foot;
+                #{$hover} {
+                    color:$text-white;
+                }
+            }
+        }
+
         @include mq($media-swap){
             flex-direction: column;
             margin: 20px;
+
+            .center, .right{
+                text-align: left;
+            }
         }
     }
 }

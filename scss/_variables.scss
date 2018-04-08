@@ -9,10 +9,12 @@ $bg-colorwrap: #ffffff;
 $bg-colorfoot: #000000;
 $bg-outside: #9fc5ff;
 $text-black: #2e2e2e;
-$text-white: #bbbbbb;
+$text-white: #eeeeee;
+$text-foot: #bbbbbb;
 
 //media query resize
 $media-swap: 600px;
+$phone-swap: 400px;
 
 // Utility variables
 $hover: '&:hover, &:focus, &:active';

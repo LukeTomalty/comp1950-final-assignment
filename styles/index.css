@@ -1,0 +1,35 @@
+.banner {
+  position: relative; }
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8; }
+  .banner .imageText {
+    max-width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    font-size: 90px;
+    padding: 0px 8px;
+    color: #eeeeee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(238, 238, 238, 0.88);
+    border-radius: 30px;
+    box-shadow: 0 0 10px #eeeeee;
+    text-shadow: 1px 1px 0 #2e2e2e, -1px 1px 0 #2e2e2e, 1px -1px 0 #2e2e2e, -1px -1px 0 #2e2e2e, 2px 2px 0px #2e2e2e, -2px 2px 0px #2e2e2e, 2px -2px 0px #2e2e2e, -2px -2px 0px #2e2e2e, 2px 1px 0px #2e2e2e, -2px 1px 0px #2e2e2e, 2px -1px 0px #2e2e2e, -2px -1px 0px #2e2e2e, 1px 2px 0px #2e2e2e, -1px 2px 0px #2e2e2e, 1px -2px 0px #2e2e2e, -1px -2px 0px #2e2e2e, 2px 0px 0px #2e2e2e, -2px 0px 0px #2e2e2e, 0px -2px 0px #2e2e2e, 0px 2px 0px #2e2e2e, 1px 0px 0px #2e2e2e, -1px 0px 0px #2e2e2e, 0px -1px 0px #2e2e2e, 0px 1px 0px #2e2e2e;
+    top: 20%; }
+    @media (max-width: 600px) {
+      .banner .imageText {
+        font-size: 60px; } }
+    @media (max-width: 400px) {
+      .banner .imageText {
+        font-size: 35px;
+        top: 75%; } }
+
+main h2 {
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
