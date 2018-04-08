@@ -32,3 +32,5 @@
 
 <!-- html body code -edit body above -->
 <?php include 'templates/footer.php';?>
+<!-- js code -->
+<?php include 'templates/htmlBottom.php';?>

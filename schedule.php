@@ -244,3 +244,5 @@
 
 <!-- html body code -edit body above -->
 <?php include 'templates/footer.php';?>
+<!-- js code --> <script src="./scripts/dayselector.js"></script>
+<?php include 'templates/htmlBottom.php';?>

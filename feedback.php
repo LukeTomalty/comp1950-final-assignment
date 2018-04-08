@@ -47,7 +47,7 @@
   <input type="hidden" name="redirect" id="redirect" value="thanks.php">
   <div class="form_settings">
       <div class='group'>
-        <p><span>Name</span><input class="contact" type="text" name="from_name" value="" required="required" /></p>
+        <p><span>Name</span><input id="smltext" class="contact" type="text" name="from_name" value="" required="required" /></p>
         <p><span>Email Address</span><input class="contact" type="email" name="email_from" value="" required="required" /></p>
       </div>
 
@@ -56,10 +56,12 @@
         <input type="radio" name="radio">
       </div>
 
-      <p><span>Feedback</span><textarea class="contact textarea" rows="8" cols="50" name="message_text" required="required"></textarea></p>
+      <div class="bigtext"><span>Feedback</span><textarea id="bigtext" class="contact textarea" rows="8" cols="50" name="message_text" required="required"></textarea></div>
       <p><input class="submit" type="submit" name="contact_submitted" value="submit"> <input class="submit" type="reset" value="reset"></p>
   </div>
 </form>
 
 <!-- html body code -edit body above -->
 <?php include 'templates/footer.php';?>
+<!-- js code --> <script src="./scripts/bigtextbox.js"></script>
+<?php include 'templates/htmlBottom.php';?>

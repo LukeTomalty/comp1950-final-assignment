@@ -33,3 +33,5 @@ dynamic and semantically marked-up content that is viewable on mobile and deskto
 
 <!-- html body code -edit body above -->
 <?php include 'templates/footer.php';?>
+<!-- js code -->
+<?php include 'templates/htmlBottom.php';?>

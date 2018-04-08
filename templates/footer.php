@@ -23,6 +23,3 @@
 </div>
 
 <script src="./scripts/menu.js"></script>
-<script src="./scripts/dayselector.js"></script>
-</body>
-</html>

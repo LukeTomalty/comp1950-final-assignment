@@ -28,3 +28,5 @@
 
 <!-- html body code -edit body above -->
 <?php include 'templates/footer.php';?>
+<!-- js code --> <script src="./scripts/bigtextbox.js"></script>
+<?php include 'templates/htmlBottom.php';?>
