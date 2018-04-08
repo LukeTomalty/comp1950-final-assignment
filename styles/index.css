@@ -31,5 +31,8 @@ main h2 {
   margin: 0 auto;
   max-width: 70%;
   text-align: center; }
+  @media (max-width: 600px) {
+    main h2 {
+      max-width: 90%; } }
 
 /*# sourceMappingURL=index.css.map */
